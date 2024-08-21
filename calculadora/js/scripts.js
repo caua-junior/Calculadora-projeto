@@ -38,19 +38,19 @@ const current = +this.currentOperationText.innerText;
 
 switch (operation) {
     case "+":
-        operationValue = previous + current
+        operationValue = previous + current;
         this.updateScreen(operationValue,operation,current,previous)
         break;
     case "-":
-        operationValue = previous - current
+        operationValue = previous - current;
         this.updateScreen(operationValue,operation,current,previous)
         break;
     case "/":
-        operationValue = previous / current
+        operationValue = previous / current;
         this.updateScreen(operationValue,operation,current,previous)
         break;
     case "*":
-        operationValue = previous * current
+        operationValue = previous * current;
         this.updateScreen(operationValue,operation,current,previous)
         break;
     case "DEL":
