@@ -121,9 +121,9 @@ switch (operation) {
         }
         //Process an operation
         processEqualOperator(){
-            this.currentOperationText.innerText = "esse usuario ja existe"
-            //const operation = previousOperationText.innerText.split(" ")[1]
-              //this.processOperation(operation)
+            //this.currentOperationText.innerText = "esse usuario ja existe"
+            const operation = previousOperationText.innerText.split(" ")[1]
+              this.processOperation(operation)
         }
     }
        
